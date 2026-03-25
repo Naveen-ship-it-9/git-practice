@@ -1,7 +1,7 @@
 #!/bin/bash
 
-NAMES=("MATTI" "VENU" "NAVEEN" "KISHORE")
+FRUITS=("APPLE" "KIWI" "ORANGE")
 
-echo "first name is:${NAMES[0]}
-echo "second name is:${NAMES[1]}
-echo "Thrid name is:${NAMES[2]}
+echo "first name is: ${FRUITS[0]}
+echo "second name is: ${FRUITS[1]}
+echo "Thrid name is: ${FRUITS[2]}

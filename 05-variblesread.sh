@@ -2,6 +2,6 @@
 
 echo "please ask user name::"
 
-read username
+read USERNAME
 
 

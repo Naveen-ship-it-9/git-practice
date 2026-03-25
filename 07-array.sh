@@ -1,6 +1,6 @@
 #!bin/bash
 
-FRUITS= ("apple" "orange" "bananna" "kiwi") #arry
+'FRUITS= ("apple" "orange" "bananna" "kiwi") #arry'
 
 echo "first fruit is:: ${FRUIT[0]}
 

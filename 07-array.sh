@@ -2,10 +2,9 @@
 
 FRUITS=("Apple" "orange" "bananna" "kiwi")
 
-echo "first fruit is:: ${FRUIT[0]}
+echo "first fruit is: ${FRUIT[0]}
+echo "2nd fruit is: ${FRUIT[1]}
+echo "3rd fruit is: ${FRUIT[2]}
 
-echo "2nd fruit is:: ${FRUIT[1]}
 
-echo "3rd fruit is:: ${FRUIT[2]}
-
-echo "all fruits:: $FRUIT[@]
+echo "all fruits: $FRUIT[@]

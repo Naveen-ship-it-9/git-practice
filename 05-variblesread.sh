@@ -8,14 +8,7 @@
 #echo "user entered is::$USERNAME"
 
 
-echo "please aks user name"
+FRUITS=("APPLE" "BANNAN" "MANGO" )
 
-read -s USERNAME
 
-echo "print user name:$USERNAME"
-
-echo "ask password:"
-
-read -s PASSWORD
-
-echo "print user password:$PASSWORD"
+echo "1st fruit name:"${FRUITS[0]}"

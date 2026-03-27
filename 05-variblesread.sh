@@ -11,4 +11,4 @@
 FRUITS=("APPLE" "BANNAN" "MANGO" )
 
 
-echo "1st fruit name:"${FRUITS[0]}"
+echo "1st fruit name:${FRUITS[0]}"

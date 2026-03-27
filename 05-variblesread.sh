@@ -10,12 +10,12 @@
 
 echo "please aks user name"
 
-read USERNAME
+read -s USERNAME
 
 echo "print user name:$USERNAME"
 
 echo "ask password:"
 
-read PASSWORD
+read -s PASSWORD
 
 echo "print user password:$PASSWORD"

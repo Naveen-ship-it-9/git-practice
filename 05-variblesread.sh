@@ -8,9 +8,17 @@
 #echo "user entered is::$USERNAME"
 
 
-FRUITS=("$1" "$2" "$3" )
+# FRUITS=("APPLE" "BANNAN" "MANGO" )
 
 
-echo "1st fruit name:${FRUITS[0]}"
-echo "2nd fruit name:${FRUITS[2]}"
-echo "3rd fruit name:${FRUITS[1]}"
+# echo "1st fruit name:${FRUITS[0]}"
+# echo "2nd fruit name:${FRUITS[1]}"
+# echo "3rd fruit name:${FRUITS[2]}"
+
+
+Fruits1=$1
+Fruits2=$2
+Fruits3=$3
+
+
+echo "1st fruits name:$Fruits1"

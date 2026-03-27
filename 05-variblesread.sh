@@ -16,9 +16,11 @@
 # echo "3rd fruit name:${FRUITS[2]}"
 
 
-FRUIT=$1
+FRUIT1=$1
+FRUIT2=$2
 
 
 
-echo "ask frruit name:$FRUIT"
-echo "1st fruits name:$FRUIT"
+
+echo "fruits name:$FRUIT1"
+echo "fruit name:$FRUIT2"

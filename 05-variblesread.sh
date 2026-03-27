@@ -22,5 +22,5 @@ FRUIT2=$2
 
 
 
-echo "fruits name:$FRUIT1"
-echo "fruit name:$FRUIT2"
+echo "fruits name:${FRUIT1}"
+echo "fruit name:${FRUIT2}"

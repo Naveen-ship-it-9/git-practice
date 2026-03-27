@@ -16,11 +16,11 @@
 # echo "3rd fruit name:${FRUITS[2]}"
 
 
-FRUIT1=$1
-FRUIT2=$2
+PERSON1=$1
+PERSON2=$2
 
 
 
 
-echo "fruits name:${FRUIT1}"
-echo "fruit name:${FRUIT2}"
+echo "fruits name:${PERSON1}"
+echo "fruit name:${PERSON2}"

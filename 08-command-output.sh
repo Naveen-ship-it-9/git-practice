@@ -2,6 +2,11 @@
 
 #date #with this also we get date now i need it in that varible
 
-DATE=$(date)
+#DATE=$(date)
 
-echo "Today's date is:$DATE"
+#echo "Today's date is:$DATE"
+
+DATE=$(date +%F)
+
+echo "Today's date is::$DATE"
+

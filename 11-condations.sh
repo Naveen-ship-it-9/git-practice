@@ -12,13 +12,29 @@
 
 # fi
 
-NUMBER=$1
+# giving one number inside and one number out side
 
-if [ $NUMBER -gt 50 ]
+# NUMBER=$1
+
+# if [ $NUMBER -gt 50 ]
+
+# then
+#     echo "given  number is greater then 50"
+# else
+#     echo "given number is less than 50"
+# fi
+
+#geving both number in out side the script
+
+INT=$1
+NUMBER=$2
+
+if [ $INT -gt $NUMBER ]
 
 then
-    echo "given  number is greater then 50"
+    echo "given number is greatethan"
 else
-    echo "given number is less than 50"
+    echo "given number is less than"
 fi
+
 

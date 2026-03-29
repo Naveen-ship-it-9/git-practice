@@ -2,5 +2,5 @@
 
 echo "ask number is:$INT"
 
-read $INT
+read INT
 

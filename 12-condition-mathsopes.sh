@@ -6,7 +6,7 @@ read INT
 
 echo "given user name is:$INT"
 
-if ( ( $int -eq 0 ) )
+if (( INT % 2 == 0 ))
 then
     echo "even number"
 else

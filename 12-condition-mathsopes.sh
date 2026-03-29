@@ -1,16 +1,12 @@
 #!/bin/bash
 
-echo "ask number is:"
+echo "given number is:"
+read x
+read y
 
-read INT
-
-echo "given user name is:$INT"
-
-if (( $INT % 2 == 0 ))
+if (( x > y))
 then
-    echo "even number"
+    echo "given number is greater than"
 else
-    echo "not even number"
-
+    echo "given number is leass then"
 fi
-

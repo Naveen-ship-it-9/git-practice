@@ -8,7 +8,8 @@
 
 # #printing user id root or not means 0 means root othere than 0 not root
 
-USER=$0
+USER=$1
+read USER
 echo "user id is:$USER"
 
 if [ $USER -ne 0 ]

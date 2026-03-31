@@ -7,4 +7,5 @@ then
     "user don't have root access"
 else
     "user have root access"
+fi
 

@@ -20,7 +20,7 @@
 
 add()
 {
-    echo "print number is:$1"
+    echo "print number is:$add"
 
 }
 read add

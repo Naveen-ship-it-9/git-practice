@@ -49,13 +49,27 @@
 
 # add $a $b
 
+# add()
+# {
+#     echo "print adding of two numbers is:$1 $2"
+# }
+# read a
+# read b
+# #add ' $a + $b '
+# #add $(( a + b ))
+
+# #if use like this add ($a + $b) or $(a + b) not work bcz syntax error
+
+# #add $(( $a - $b ))
+
+# add $(( $a + $b ))
+
 add()
 {
-    echo "print adding of two numbers is:$1 $2"
+    echo "print adding of two numbers is:$1"
 }
 read a
 read b
-#add ' $a + $b '
-#add $(( a + b ))
-#if use like this add ($a + $b) or $(a + b) not work bcz syntax error
-add $(( $a - $b ))
+sum= $((a + b ))
+
+add $sum

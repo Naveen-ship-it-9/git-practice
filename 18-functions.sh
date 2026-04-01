@@ -18,12 +18,21 @@
 
 #printing number with read 
 
+# add()
+# {
+#     echo "print number is:$add"
+
+# }
+# read add
+
+# add
+
+# or
+
 add()
 {
-    echo "print number is:$add"
-
+    echo "print nuber is:$1"
 }
 read add
-
-add
+add $add
 

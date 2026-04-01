@@ -46,4 +46,4 @@ add()
 
 read a b
 
-add a b
+add a + b

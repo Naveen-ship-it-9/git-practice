@@ -70,6 +70,6 @@ add()
 }
 read a
 read b
-sum= $((a + b ))
+sum=$((a + b ))
 
 add $sum

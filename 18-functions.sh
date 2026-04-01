@@ -44,6 +44,6 @@ add()
 
 }
 
-read a b
+read a & b
 
-add a + b
+add $(a + b)

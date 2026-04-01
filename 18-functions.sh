@@ -11,7 +11,7 @@
 
 add()
 {
-    echo "Printing numbers $1"
+    echo "Printing number is: $1"
 }
 
 add 2

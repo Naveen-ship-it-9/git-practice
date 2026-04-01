@@ -23,5 +23,7 @@ add()
     echo "print number is:$1"
 
 }
-read add add
+read add
+
+add
 

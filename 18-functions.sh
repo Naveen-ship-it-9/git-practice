@@ -29,10 +29,21 @@
 
 # or
 
+# add()
+# {
+#     echo "print nuber is:$1"
+# }
+# read add
+# add $add
+
+#adding the sumbers
+
 add()
 {
-    echo "print nuber is:$1"
-}
-read add
-add $add
+    echo "print adding number is:$1 $2"
 
+}
+
+read a b
+
+add a b

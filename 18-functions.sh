@@ -58,4 +58,4 @@ read b
 #add ' $a + $b '
 #add $(( a + b ))
 #if use like this add ($a + $b) or $(a + b) not work bcz syntax error
-add (( $a - $b ))
+'add (( $a - $b ))'

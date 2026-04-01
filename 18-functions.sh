@@ -1,9 +1,17 @@
 #!/bin/bash
+# #basic program in functions
+# NAME()      #define function with Name
+# {
+#     echo "Hello Naveen"
+# }
 
-NAME()
+# NAME   #calling the function
+
+#Printing number
+
+add()
 {
-    echo "Hello Naveen"
+    echo "Printing numbers $1"
 }
 
-NAME
-
+add 2

@@ -18,4 +18,21 @@ then
 else
     echo "don't install git"
 fi
+dnf list installed mysql
+if [ $? -ne 0 ]
+then
+    echo "install mysql if it already install plz say already installed"
+    dnf install mysql -y
+else
+    echo "don't install mysql "
+fi
+
+if [ $? -ne 0 ]
+then
+    echo "it's not installed plz check it"
+    exit 1
+else
+    echo "it is installed"
+
+fi
 

@@ -47,6 +47,15 @@ then
 else
     echo "git is installed no need to any action"
 fi
-VALIDATE $? "INstallin git"
-
+VALIDATE $? "Instalation git"
+dnf list installed mysql
+if [ $1 -ne 0 ]
+then
+    echo "my sql is not there plz install it"
+    dnf install mysql -y
+    exit 1
+else
+    echo "mysql is installed no need to any action"
+fi 
+VALIDATE $? "Instalation mysql"
 

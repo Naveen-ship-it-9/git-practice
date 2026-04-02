@@ -1,5 +1,5 @@
 #!/bin/bash
-USERID=$(id-u)
+USERID=$(id -u)
 VALIDATE()
 {
     #echo "exist nubmer is:$1"
@@ -8,6 +8,7 @@ VALIDATE()
         echo "command is ... FAILD"
     else
         echo "command is .... SUCC"
+    fi
 }
 if [ $USERID -ne 0 ]
 then

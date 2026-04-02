@@ -1,28 +1,28 @@
 #!/bin/bash
-USERID=$(id -u) #this code for checking git is there or not in packages 
-VALIDATE()
-{
-    #echo "exist nubmer is:$1"
-    if [ $1 -ne 0 ] #manam instal chesena dani succ full ga checsama leda ani chepatham this function
-    then
-        echo "command is ... FAILD"
-    else
-        echo "command is .... SUCC"
-    fi
-}
-if [ $USERID -ne 0 ]
-then
-    echo "please check user don't root access plz use sudo"
-    exit 1
-fi
-dnf list installed git 
+# USERID=$(id -u) #this code for checking git is there or not in packages 
+# VALIDATE()
+# {
+#     #echo "exist nubmer is:$1"
+#     if [ $1 -ne 0 ] #manam instal chesena dani succ full ga checsama leda ani chepatham this function
+#     then
+#         echo "command is ... FAILD"
+#     else
+#         echo "command is .... SUCC"
+#     fi
+# }
+# if [ $USERID -ne 0 ]
+# then
+#     echo "please check user don't root access plz use sudo"
+#     exit 1
+# fi
+# dnf list installed git 
 
-VALIDATE $?
+# VALIDATE $?
 
 # now code is for install git and my sql 
 
 
-USERID=$(id -u)
+USERID=$0    #(id -u)
 VALIDATE()
 {
     if [ $1 -ne 0 ]

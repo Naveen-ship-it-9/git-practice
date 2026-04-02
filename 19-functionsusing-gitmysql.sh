@@ -2,6 +2,6 @@
 
 VALIDATE()
 {
-    echo "exist nubmer is:$1"
+    echoo "exist nubmer is:$1"
 }
 VALIDATE $?

@@ -22,7 +22,8 @@
 # now code is for install git and my sql 
 
 
-USERID=$0    #(id -u)
+USERID=$0
+read USERID    #(id -u)
 VALIDATE()
 {
     if [ $1 -ne 0 ]

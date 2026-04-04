@@ -106,4 +106,4 @@ read a
 
 read b
 
-VALIDATE "$a" "$b"
+VALIDATE $a $b

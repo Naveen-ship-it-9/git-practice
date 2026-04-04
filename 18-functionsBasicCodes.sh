@@ -90,12 +90,12 @@
 # }
 # VALIDATE
 
-int1=a
-int2=b
+int1=$a
+int2=$b
 
 VALIDATE()
 {
-    if [ $int1 -gt $int2 ]
+    if [ "$int1" -gt "$int2" ]
     then
         echo "$int1 is greater"
     else
@@ -106,4 +106,4 @@ read a
 
 read b
 
-VALIDATE
+VALIDATE $int1 $int2

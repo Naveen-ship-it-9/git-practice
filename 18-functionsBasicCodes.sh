@@ -75,18 +75,35 @@
 
 # add $sum
 
-a=10 
-b=20
+# a=10 
+# b=20
+
+# VALIDATE()
+# {
+#     if [ $a -ne $b ]
+#     then
+#         echo "print $a"
+#         exit 1
+#     else
+#         echo "print $b"
+#     fi
+# }
+# VALIDATE
+
+INT1=$a
+INT2=$b
 
 VALIDATE()
 {
-    if [ $a -ne $b ]
+    if [ "$INT1" -gt "$INT2" ]
     then
-        echo "print $a"
-        exit 1
+        echo "$INT1"
     else
-        echo "print $b"
+        echo "$INT2"
     fi
 }
-VALIDATE
+read a
 
+read b
+
+VALIDATE

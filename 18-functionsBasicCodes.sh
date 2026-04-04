@@ -80,7 +80,7 @@ b=20
 
 VALIDATE()
 {
-    if [ a=10; a<=b; a++]
+    if [ a -ne b ]
     then
         echo "print $a"
         exit 1

@@ -13,8 +13,15 @@
 
 # now anothre way like loops
 
-for i in 0 1 2 3 4 5 6 7 8 9 10
-do
-    echo "$i"
-done
+# for i in 0 1 2 3 4 5 6 7 8 9 10
+# do
+#     echo "$i"
+# done
 
+
+#if i need to print that one also difcult right so we have another way 
+
+for i in {0..10}
+do 
+    echo $i
+done

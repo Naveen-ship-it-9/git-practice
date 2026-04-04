@@ -97,10 +97,10 @@ VALIDATE()
 {
     if [ $int1 -gt $int2 ]
     then
-        echo "print $a"
+        echo "print $int1"
         exit 1
     else
-        echo "print $b"
+        echo "print $int2"
     fi
 }
 read $int1

@@ -1,4 +1,5 @@
-# !/bin/bash
+ #!/bin/bash
+
 # #basic program in functions
 # NAME()      #define function with Name
 # {
@@ -74,36 +75,18 @@
 
 # add $sum
 
-
-# a=10 
-# b=20
-
-# VALIDATE()
-# {
-#     if [ $a -ne $b ]
-#     then
-#         echo "print $a"
-#         exit 1
-#     else
-#         echo "print $b"
-#     fi
-# }
-# VALIDATE
-
-INT1=$1
-INT2=$2
+a=10 
+b=20
 
 VALIDATE()
 {
-    if [ $INT1 -gt $INT2 ]
+    if [ $a -ne $b ]
     then
-        echo "$INT1"
+        echo "print $a"
+        exit 1
     else
-        echo "$INT2"
+        echo "print $b"
     fi
 }
-read a
-
-read b
-
 VALIDATE
+

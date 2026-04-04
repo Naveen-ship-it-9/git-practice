@@ -25,7 +25,7 @@ VALIDATE ()
         echo -e "$2 is .....$G Succ $N"
     fi
 }
-CHECK_OUT
+CHECK_ROOT
 dnf list installed git
 if [ $? -ne 0 ]
 then

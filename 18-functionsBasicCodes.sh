@@ -90,8 +90,8 @@
 # }
 # VALIDATE
 
-INT1 =$a
-INT2 =$b
+INT1=$a
+INT2=$b
 
 VALIDATE()
 {

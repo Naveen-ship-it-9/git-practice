@@ -90,8 +90,8 @@
 # }
 # VALIDATE
 
-int1 =$a
-int2 =$b
+int1=$a
+int2=$b
 
 VALIDATE()
 {
@@ -103,7 +103,8 @@ VALIDATE()
         echo "print $b"
     fi
 }
-read $a
-read $b
+read $int1
+
+read $int2
 
 VALIDATE

@@ -78,7 +78,7 @@
 a=10 
 b=20
 
-VALDATE()
+VALIDATE()
 {
     if [ a=10; a<=b; a++]
     then

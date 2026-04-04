@@ -86,5 +86,6 @@ VALDATE()
         exit 1
     else
         echo "print $b"
+    fi
 }
 VALIDATE a b

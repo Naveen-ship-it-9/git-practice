@@ -90,16 +90,16 @@
 # }
 # VALIDATE
 
-int1 =$a
-int2 =$b
+INT1=$a
+INT2=$b
 
 VALIDATE()
 {
-    if [ $int1 -gt $int2 ]
+    if [ $INT1 -gt $INT2 ]
     then
-        echo " $int1 is greater "
+        echo " $INT1 is greater "
     else
-        echo " $int2 is grater "
+        echo " $INT2 is grater "
     fi
 }
 read a

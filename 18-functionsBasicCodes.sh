@@ -97,10 +97,9 @@ VALIDATE()
 {
     if [ $int1 -gt $int2 ]
     then
-        echo "$int1"
-        exit 1
+        echo "$int1 is greater"
     else
-        echo "$int2"
+        echo "$int2 is grater"
     fi
 }
 read a

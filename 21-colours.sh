@@ -1,9 +1,9 @@
 #!bin/bash
 
 USERID=(id -u)
-R ="\e[31m"
-G ="\e[32m"
-N ="\e[33m"
+R="\e[31m"
+G="\e[32m"
+N="\e[33m"
 #colours uses it while help u to unsersatnd Succ or failed if we not use $N continues ga colour vachedi 
 CHECK_ROOT()
 {

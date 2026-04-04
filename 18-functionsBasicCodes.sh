@@ -95,7 +95,7 @@ INT2=$b
 
 VALIDATE()
 {
-    if [ "$INT1" -gt "$INT2" ]
+    if [ $INT1 -ne $INT2 ]
     then
         echo "$INT1"
     else

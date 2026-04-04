@@ -28,21 +28,23 @@ if [ $? -ne 0 ]
 then
     echo "git not installed going to install it..."
     dnf install git -y
+    VALIDATE $? "Insatlltion git"
     exit 1
 else
     echo "git is installed"
 fi
-VALIDATE $? "Insatlltion git"
+
 dnf list installed mysql
 if [ $? -ne 0 ]
 then
     echo "my sql not insatlled going to insatll it...."
     dnf insatll mysql -y
+    VALIDATE $? "Insatllation mysql"
     exit 1
 else
     echo "my sql is insatlled"
 fi
-VALIDATE $? "Insatllation mysql"
+
 
 
 

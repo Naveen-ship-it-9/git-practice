@@ -19,7 +19,7 @@
 # done
 
 
-#if i need to print that one also difcult right so we have another way 
+#if i need to print 1000 so that above syntax also difcult right so we have another way 
 
 for i in {0..10}
 do 

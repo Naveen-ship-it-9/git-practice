@@ -18,7 +18,7 @@ CHECK_ROOT()
 }
 VALIDATE ()
 {
-    if [ $? -ne 0 ]
+    if [ $1 -ne 0 ]
     then
         echo -e "$2 is....$R Failed $N"
         exit 1

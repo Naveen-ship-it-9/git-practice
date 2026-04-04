@@ -97,13 +97,13 @@ VALIDATE()
 {
     if [ $INT1 -ne $INT2 ]
     then
-        echo "$INT1"
+        echo " print $INT1"
     else
-        echo "$INT2"
+        echo " print $INT2"
     fi
 }
 read a
 
 read b
 
-VALIDATE
+VALIDATE "$a" "$b"

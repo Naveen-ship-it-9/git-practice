@@ -1,19 +1,20 @@
 #!bin/bash
 
-USERID=(id -u)
+USERID=$(id -u)
 R="\e[31m"
 G="\e[32m"
 N="\e[33m"
 #colours uses it while help u to unsersatnd Succ or failed if we not use $N continues ga colour vachedi 
+
 CHECK_ROOT()
 {
     if [ $USERID -ne 0 ]
     then
-        echo "user dont have root access plz check...."
+        echo "user dont have root access plz check and use sudo"
         exit 1
     else
-        echo "user have root access....."
-    fi 
+        echo "user have root access"
+    fi
 }
 VALIDATE ()
 {

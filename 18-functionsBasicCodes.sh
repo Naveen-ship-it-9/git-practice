@@ -1,4 +1,4 @@
-#!/bin/bash
+# !/bin/bash
 # #basic program in functions
 # NAME()      #define function with Name
 # {
@@ -7,7 +7,7 @@
 
 # NAME   #calling the function
 
-#Printing number
+# Printing number
 
 # add()
 # {
@@ -16,7 +16,7 @@
 
 # add 2
 
-#printing number with read 
+# printing number with read 
 
 # add()
 # {
@@ -36,7 +36,7 @@
 # read add
 # add $add
 
-#print two numbers
+# print two numbers
 
 # add()
 # {
@@ -64,12 +64,27 @@
 
 # add $(( $a + $b ))
 
-add()
-{
-    echo "print adding of two numbers is:$1"
-}
-read a
-read b
-sum=$((a + b ))
+# add()
+# {
+#     echo "print adding of two numbers is:$1"
+# }
+# read a
+# read b
+# sum=$((a + b ))
 
-add $sum
+# add $sum
+
+
+a=10 
+b=20
+
+VALDATE()
+{
+    if [ a=10; a<=b; a++]
+    then
+        echo "print $a"
+        exit 1
+    else
+        echo "print $b"
+}
+VALIDATE a b

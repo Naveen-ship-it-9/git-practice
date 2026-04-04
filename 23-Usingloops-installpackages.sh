@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USERID=(id -u)
+USERID=0    #$(id -u)
 G="\e[31m"
 R="\e[32m"
 N="\e[0m"
@@ -21,7 +21,7 @@ VALIDATE()
         echo -e "$2 is.... $R Failed $N"
         exit 1
     else
-        echo "$2 is.... $G Succ $N"
+        echo -e "$2 is.... $G Succ $N"
     fi
 }
 CHECK_ROOT

@@ -88,4 +88,4 @@ VALIDATE()
         echo "print $b"
     fi
 }
-VALIDATE $a $b
+VALIDATE

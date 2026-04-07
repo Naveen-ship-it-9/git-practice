@@ -30,7 +30,7 @@
 #     echo "$package"
 # done
 
-USERID=0    #$(id -u)
+USERID=$(id -u)
 G="\e[31m"
 R="\e[32m"
 N="\e[0m"

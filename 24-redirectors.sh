@@ -1,10 +1,10 @@
 #!/bin/bash
-LOGES_FOLDER ="/var/log/shall_script"
-SCRIPT_NAME =$(echo "24-redirectors.sh" | cut -d "." -f1)
-TIME_STAMP =$(date +%Y-%m-%d-%H-%m-%S)
-LOG_FILE ="$LOGES_FOLDER/$SCRIPT_NAME-$TIME_STAMP.log"
+LOGES_FOLDER="/var/log/shall_script"
+SCRIPT_NAME=$(echo "24-redirectors.sh" | cut -d "." -f1)
+TIME_STAMP=$(date +%Y-%m-%d-%H-%m-%S)
+LOG_FILE="$LOGES_FOLDER/$SCRIPT_NAME-$TIME_STAMP.log"
 mkdir -p /var/log/shall_script
-userid =(id -u)
+userid =$(id -u)
 R="\e[31m"
 G="\e[32m"
 N="\e[0m"

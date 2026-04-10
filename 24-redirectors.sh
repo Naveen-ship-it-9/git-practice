@@ -12,7 +12,7 @@ CHECK_ROOT()
 {
     if [ $userid -ne 0 ]
     then
-        echo -e " $R user dont have root access plz cehck... $N"
+        echo -e "$R user dont have root access plz cehck... $N"
         exit 1
     else
         echo "user have root access"

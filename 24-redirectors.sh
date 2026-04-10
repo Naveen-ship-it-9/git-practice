@@ -7,6 +7,7 @@ mkdir -p /var/log/shall_script
 userid=0  #$(id -u)
 R="\e[31m"
 G="\e[32m"
+Y="\e[33m"
 N="\e[0m"
 CHECK_ROOT()
 {
@@ -30,7 +31,7 @@ VALIDATE()
 }
 USAGE()
 {
-    echo "user need to give package name like sudo sh filename package1 package2 package3..."
+    echo -e "$Y user need to give package name like sudo sh filename package1 package2 package3... $N"
     exit 1
 }
 CHECK_ROOT

@@ -28,7 +28,18 @@ VALIDATE()
         echo -e "$2 is ... $G Succ $N" &>>$LOG_FILE
     fi
 }
+USAGE()
+{
+    echo "user need to give package name like sudo sh filename package1 package2 package3..."
+    exit 1
+}
 CHECK_ROOT
+
+if [ $# -ne 0 ]
+then
+    USAGE
+fi
+
 for package in $@
 do
     dnf list installed $package
@@ -42,4 +53,7 @@ do
         echo -e "$G $pacake is installed noting to do.... $N" &>>$LOG_FILE
     fi
 done
+
+#so if new user using to he do know packages need to give so we usage fuction
+#(viri avarina use chesay valaki teleyadu ga em pacakages kavali ani like manualga evali ano)
 

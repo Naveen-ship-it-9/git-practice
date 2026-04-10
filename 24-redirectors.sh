@@ -4,7 +4,7 @@ SCRIPT_NAME=$(echo "24-redirectors.sh" | cut -d "." -f1)
 TIME_STAMP=$(date +%Y-%m-%d-%H-%m-%S)
 LOG_FILE="$LOGES_FOLDER/$SCRIPT_NAME-$TIME_STAMP.log"
 mkdir -p /var/log/shall_script
-userid=0
+userid=$(id -u)
 R="\e[31m"
 G="\e[32m"
 N="\e[0m"
@@ -15,7 +15,7 @@ CHECK_ROOT()
         echo -e "$R user dont have root access plz cehck... $N"
         exit 1
     else
-        echo "user have root access"
+        echo -e "$R user have root access...$N"
     fi
 }
 VALIDATE()

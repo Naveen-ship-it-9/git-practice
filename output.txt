@@ -1,0 +1,28 @@
+bash: lss: command not found
+total 49
+-rwxr-xr-x 1 kanap 197609   70 Mar 24 11:04 01-helloword.sh*
+-rwxr-xr-x 1 kanap 197609  179 Mar 24 17:07 02-conversation.sh*
+-rwxr-xr-x 1 kanap 197609  228 Mar 27 13:52 03-varibales.sh*
+-rwxr-xr-x 1 kanap 197609  312 Mar 27 19:39 04-variblesoutsideips.sh*
+-rwxr-xr-x 1 kanap 197609  284 Mar 27 19:34 05-variblesread.sh*
+-rwxr-xr-x 1 kanap 197609  179 Mar 25 09:08 06-varibleread-s.sh*
+-rwxr-xr-x 1 kanap 197609  338 Mar 25 17:59 07-Arrya.sh*
+-rwxr-xr-x 1 kanap 197609  173 Mar 28 08:07 08-command-output.sh*
+-rwxr-xr-x 1 kanap 197609  157 Mar 28 08:27 09-date-types.sh*
+-rwxr-xr-x 1 kanap 197609  278 Mar 30 00:18 10-special-varibles.sh*
+-rwxr-xr-x 1 kanap 197609  563 Mar 29 13:41 11-condations.sh*
+-rwxr-xr-x 1 kanap 197609  318 Mar 30 08:43 12-condition-mathsopes.sh*
+-rwxr-xr-x 1 kanap 197609  165 Mar 29 16:47 13-evennumber.sh*
+-rwxr-xr-x 1 kanap 197609  402 Mar 30 00:01 14-oddnumber.sh*
+-rwxr-xr-x 1 kanap 197609   54 Mar 30 07:41 15-printnumbers-1to10.sh*
+-rwxr-xr-x 1 kanap 197609  479 Mar 30 12:34 16-printinguserID-Installation.sh*
+-rwxr-xr-x 1 kanap 197609  861 Apr  1 07:21 17-Installation-gitmysql.sh*
+-rw-r--r-- 1 kanap 197609 1216 Apr  4 12:02 18-functionsBasicCodes.sh
+-rwxr-xr-x 1 kanap 197609 1298 Apr  4 14:02 19-functionsusing-gitmysql.sh*
+-rwxr-xr-x 1 kanap 197609  779 Apr  4 14:02 20-userid-using-functions.sh*
+-rwxr-xr-x 1 kanap 197609  953 Apr  4 20:20 21-colours.sh*
+-rwxr-xr-x 1 kanap 197609  346 Apr  4 17:03 22-basic-loopcode.sh*
+-rwxr-xr-x 1 kanap 197609 1306 Apr 10 11:45 23-Usingloops-installpackages.sh*
+-rwxr-xr-x 1 kanap 197609  636 Apr 10 11:32 24-redirectors.sh*
+-rw-r--r-- 1 kanap 197609   29 Apr 10 11:55 output.txt
+bash: lss: command not found

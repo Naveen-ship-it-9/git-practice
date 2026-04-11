@@ -73,7 +73,7 @@ time_stamp=$(date +%Y-%m-%d-%H-%m-%S)
 log_file="$logs_folder/$script_name$time_stamp.log"
 mkdir -p /var/log/shell_script
 
-USERID=$(id -u)
+USERID=0 #$(id -u)
 R="\e[31m"
 G="\e[32m"
 N="\e[0m"

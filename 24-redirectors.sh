@@ -120,7 +120,7 @@ do
     if [ $? -ne 0 ]
     then
         echo -e "$R $package need to install...going to insatll it... $N" | tee -a $log_file
-        dnf $package install -y &>>$log_file
+        dnf  install $package -y &>>$log_file
         VALIDATE $? "$package insatallation"
        
     else

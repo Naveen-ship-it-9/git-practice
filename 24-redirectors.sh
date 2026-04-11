@@ -76,7 +76,7 @@ mkdir -p /var/log/shell_script
 USERID=$(id -u)
 R="\e[31m"
 G="\e[32m"
-N="\[0m"
+N="\e[0m"
 Y="\[33m"
 
 CHECK_ROOT()

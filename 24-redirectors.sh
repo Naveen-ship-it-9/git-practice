@@ -111,7 +111,7 @@ CHECK_ROOT
 
 if [ $# -ne 0 ]
 then
-    USAGE
+    USEAGE
 fi
 
 for package in $@

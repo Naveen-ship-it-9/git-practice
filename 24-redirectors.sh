@@ -121,7 +121,7 @@ do
     then
         echo -e "$R $package need to install...going to insatll it... $N" | tee -a $log_file
         dnf  install $package -y &>>$log_file
-        VALIDATE $? "$package insatallation"
+        VALIDATE $? "insatallation $package"
        
     else
         echo -e "$G $package installed no need to do install.... $N" | tee -a $log_file

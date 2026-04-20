@@ -3,7 +3,7 @@
 # SCRIPT_NAME=$(echo "24-redirectors.sh" | cut -d "." -f1)
 # TIME_STAMP=$(date +%Y-%m-%d-%H-%m-%S)
 # LOG_FILE="$LOGES_FOLDER/$SCRIPT_NAME-$TIME_STAMP.log"
-# mkdir -p /var/log/shall_script
+# mkdir -p LOGES_FOLDER
 # userid=0  #$(id -u)
 # R="\e[31m"
 # G="\e[32m"
@@ -71,7 +71,7 @@ logs_folder="/var/log/shell_script"
 script_name=$(echo "24-redirectors.sh" | cut -d "." -f1)
 time_stamp=$(date +%Y-%m-%d-%H-%m-%S)
 log_file="$logs_folder/$script_name$time_stamp.log"
-mkdir -p /var/log/shell_script
+mkdir -p logs_folder
 
 USERID=0 #$(id -u)
 R="\e[31m"

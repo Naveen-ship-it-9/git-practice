@@ -1,5 +1,5 @@
 #!/bin/bash
-source-dir=/c/Users/kanap/home/logs
+source-dir=/c/Users/kanap/logs
 if [ -d $source_dir ]
 then
     echo "$sourcedir exists"

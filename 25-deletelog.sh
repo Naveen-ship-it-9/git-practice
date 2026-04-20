@@ -7,6 +7,6 @@ else
     echo "$SOURCE_DIR does not exists"
     exit 1
 fi
-files=$(find $SOURCE_DIR -name "*.log" -mtime +14)
-echo "files: $files"
+FILES=$(find $SOURCE_DIR -name "*.log" -mtime +14)
+echo "FILES: $FILES"
 

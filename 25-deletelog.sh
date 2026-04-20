@@ -9,4 +9,9 @@ else
 fi
 FILES=$(find "$SOURCE_DIR" -name "*.log")
 echo "files: $FILES"
+while IFS= read -r line
+do
+    echo "Deleting line: $line"
+    rm -rf $line
+done <<< $FILES
 

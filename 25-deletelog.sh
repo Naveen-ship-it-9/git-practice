@@ -1,12 +1,12 @@
 #!/bin/bash
-source-dir=/c/Users/kanap/logs
-if [ -d $source_dir ]
+SOURCE_DIR=/Users/kanap/logs
+if [ -d $SOURCE_DIR ]
 then
-    echo "$sourcedir exists"
+    echo "$SOURCE_DIR exists"
 else
-    echo "$sourcedir does not exists"
+    echo "$SOURCE_DIR does not exists"
     exit 1
 fi
-files=$(find $source_dir -name "*.log" -mtime +14)
-echo "files:$files"
+files=$(find $SOURCE_DIR -name "*.log" -mtime +14)
+echo "files: $files"
 

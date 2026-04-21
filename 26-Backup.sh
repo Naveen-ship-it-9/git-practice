@@ -33,7 +33,7 @@ else
     echo -e "$G $DEST_DIR is not exists plz check $N"
     exit 1
 fi
-FILES=$(find "$SOURCE_DIR" -name "*.log")
+FILES=$(find "$SOURCE_DIR" -name "*.log" -mtime +14)
 echo "files: $FILES"
 if [ -n $FILES ]
 then

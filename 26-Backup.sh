@@ -10,6 +10,7 @@ Y="\e[33m"
 USAGE()
 {
     echo -e "$Y $USAGE:: $N sh filename.sh <source dir> <destination dir> <days(optinal)>"
+    exit 1
 
 }
 #check source and destitation are provided or not

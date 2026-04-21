@@ -38,9 +38,28 @@ echo "files: $FILES"
 if [ -n $FILES ]
 then
     echo -e "$G files are found... $N"
+#now we need to zip the file
+    ZIP_FILE="$DEST_DIR/app-log-$TIME_STAMP.zip"
+    find "$SOURCE_DIR" -name "*.log" -mtime +14 | zip "$ZIP_FILE" -@
+#Now check zip file is successfully created or not
+    if [ -f $ZIP_FILE ]
+    then
+        echo -e "$G successfully zipped files older than $DAYS $N"
+#now we need to remove file from main place or remove the file after zipping
+        while IFS= read -r file
+        do
+            echo "Deleting file: $file"
+            rm -rf $file
+        done <<< $FILES
+    else
+        echo -e "$R file failed to zipped $N"
+        exit 1
+    fi
+
 else
-    echo -e "$R no files older then $DAYS"
+    echo -e "$R no files older then $DAYS $N"
 fi
+
 
 
 

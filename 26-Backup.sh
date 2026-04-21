@@ -33,6 +33,15 @@ else
     echo -e "$G $DEST_DIR is not exists plz check $N"
     exit 1
 fi
+FILES=$(find "$SOURCE_DIR" -name "*.log" -mtime +14)
+echo "files: $FILES"
+if [ -n $FILES ]
+then
+    echo -e "$G files are found... $N"
+else
+    echo -e "$R no files older then $DAYS"
+fi
+
 
 
 

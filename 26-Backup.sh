@@ -9,7 +9,7 @@ N="\e[0m"
 Y="\e[33m"
 USAGE()
 {
-    echo -e "$Y $USAGE:: $N sh filename.sh <source dir> <destination dir> <days(optinal)>"
+    echo -e "$Y $USAGE:: $N sh filename.sh <source dir> <destination dir> <days(optinal)> $N"
     exit 1
 
 }
